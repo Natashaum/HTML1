@@ -1,0 +1,36 @@
+.description {
+    background: aqua;
+    text-align: justify;
+    font-size: 30px;
+    color: darkblue;
+}
+
+.size {
+    font-size: 50px;
+    color: #5500ff;
+}
+
+.image-1 {
+    border: 10px solid darkblue;
+}
+
+h1 {
+    text-align: center;
+    color: #000dff;
+    font-size: 60px;
+}
+h2 {
+    text-align: center;
+    background: #000dff;
+    color: aquamarine;
+    font-size: 40px;
+}
+p {
+    text-align: justify;
+    color: darkblue;
+    background: aqua;
+    font-size: 30px;
+}
+.image-2 {
+    border: 15px solid #000dff;
+}

@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#header {
+   height: 100px;
+    width: 420px;
+    background: aquamarine;
+    display: flex;
+}
+ .container-row {
+     display: flex;
+     flex-direction: row;
+     column-gap: 20px;
+
+ }
+ .container-column {
+     display: flex;
+     flex-direction: column;
+     row-gap: 20px;
+ }
+ #menu {
+     height: 420px;
+     width: 100px;
+     background: hotpink;
+ }
+ .post {
+     height: 200px;
+     width: 300px;
+     background: blue;
+ }
+ #footer {
+     height: 100px;
+     width: 420px;
+     background: greenyellow;
+     display: flex;
+ }

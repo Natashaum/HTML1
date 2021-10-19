@@ -1,0 +1,29 @@
+#header {
+    height: 150px;
+    width: 800px;
+    background: #000dff;
+}
+#nev {
+    height: 100px;
+    width: 800px;
+    background: #00ffbb;
+}
+.container-row {
+    display: flex;
+    flex-direction: row;
+}
+.main {
+    height: 450px;
+    width: 600px;
+    background: #5500ff;
+}
+.aside {
+    height: 450px;
+    width: 200px;
+    background: rgba(140, 0, 255, 0.91);
+}
+#footer {
+    height: 100px;
+    width: 800px;
+    background: #10168a;
+}

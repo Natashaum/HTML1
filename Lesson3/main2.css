@@ -8,6 +8,8 @@
     width: 420px;
     background: aquamarine;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
  .container-row {
      display: flex;
@@ -24,15 +26,23 @@
      height: 420px;
      width: 100px;
      background: hotpink;
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
  .post {
      height: 200px;
      width: 300px;
      background: blue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
  #footer {
      height: 100px;
      width: 420px;
      background: greenyellow;
      display: flex;
+     justify-content: center;
+     align-items: center;
  }

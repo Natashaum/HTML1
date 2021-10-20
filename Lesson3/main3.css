@@ -3,6 +3,8 @@
     width: 320px;
     background: rgba(94, 0, 255, 0.91);
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     display: flex;
@@ -18,9 +20,15 @@
     height: 100px;
     width: 100px;
     background: #00f7ff;
+    display: flex;
+   justify-content: center;
+    align-items: center;
 }
 #contacts {
     height: 300px;
     width: 320px;
     background: #000dff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

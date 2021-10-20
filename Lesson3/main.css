@@ -8,17 +8,24 @@
     width: 800px;
     height: 200px;
     background: #10168a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .b {
     width: 600px;
     height: 400px;
     background: #000dff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .c {
     width: 200px;
     height: 400px;
     background: #00f7ff;
-
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

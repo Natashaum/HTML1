@@ -1,0 +1,26 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.alm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a {
+    width: 800px;
+    height: 200px;
+    background: #10168a;
+}
+.b {
+    width: 600px;
+    height: 400px;
+    background: #000dff;
+}
+.c {
+    width: 200px;
+    height: 400px;
+    background: #00f7ff;
+}

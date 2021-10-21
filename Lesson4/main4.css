@@ -1,0 +1,32 @@
+.header {
+    height: 150px;
+    width: 800px;
+}
+.nav_footer_ht {
+    height: 100px;
+    width: 800px;
+    background: aqua;
+}
+.main {
+    height: 450px;
+    width: 600px;
+}
+.wrap_row {
+    flex-direction: row;
+}
+.aside {
+    height: 450px;
+    width: 200px;
+    background: #00ffbb;
+}
+.dsp_flx {
+    display: flex;
+}
+.bg {
+    background: #000dff;
+}
+.alm {
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+}

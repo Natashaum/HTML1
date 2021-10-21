@@ -1,0 +1,37 @@
+.wrap1 {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.wrap2 {
+    flex-direction: row;
+    column-gap: 10px;
+}
+.widget {
+    height: 150px;
+    width: 320px;
+    display: flex;
+}
+.set_of_blocks {
+    flex-direction: row;
+}
+.Small_blocks {
+    height: 100px;
+    width: 100px;
+    background: #00f7ff;
+}
+.contacts {
+    height: 300px;
+    width: 320px;
+}
+.dsp_flx {
+    display: flex;
+}
+.bg {
+    background: #000dff;
+}
+.alm {
+    justify-content: center;
+    align-items: center;
+}
+
+

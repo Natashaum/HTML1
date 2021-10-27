@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестова сторінка</title>
+    <style>
+        .target {
+            width: 200px;
+            height: 200px;
+            background: darkblue;
+            margin-bottom: 5px;
+        }
+
+        .target[XXX] {
+            border-radius: 50%;
+        }
+
+        .point-1 + p {
+            background: hotpink;
+        }
+
+        .point-2 ~ p {
+            background: hotpink;
+        }
+
+        input[type] {
+            background: #00f7ff;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <ul>
+        <li> List Item
+            <ul>
+                <li> Child</li>
+            </ul>
+        </li>
+        <li> List Item</li>
+        <li> List Item</li>
+        <li> List Item</li>
+    </ul>
+
+    <form>
+        <label for="name">Name:</label>
+        <input id="name" placeholder="Enter name" type="text">
+        <label for="age">Name:</label>
+        <input id="age" placeholder="Enter age" type="number">
+        <label for="email">Name:</label>
+        <input id="email" placeholder="Enter email" type="email">
+    </form>
+</div>
+
+<div class="target"></div>
+<div class="target"></div>
+<hr>
+<div class="point-1"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, dignissimos.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, suscipit.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, vitae.</p>
+<div class="point-1"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quibusdam.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, nesciunt?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dignissimos?</p>
+<div class="point-2"></div>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<p>Lorem ipsum dolor sit amet.</p>
+<div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+</body>
+</html>

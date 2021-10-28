@@ -152,3 +152,69 @@ border-color: var(--aqua);
     font-size: 22px;
     font-weight: 700;
 }
+.country__places {
+    background: var(--light);
+    height: auto;
+}
+h3 {
+   text-align: center;
+    color: var(--blue);
+    padding: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+h4, p {
+    line-height: 30px;
+}
+.places__grid {
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.places__grid-content{
+    padding: 20px;
+}
+
+.places__grid-bottom {
+    border-top: 2px solid var(--blue);
+    width: 100%;
+    height: 50px;
+}
+.picture {
+    height: 200px;
+    width: 100%;
+    background: var(--blue);
+}
+.place {
+    font-weight: bold;
+    font-size: large;
+}
+.alignment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country__places_grid {
+    display: flex;
+    justify-content: space-between;
+}
+.soc-icon1 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 25px;
+    column-gap: 5px;
+    list-style: none;
+}
+.soc-icon2 {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    column-gap: 5px;
+    list-style: none;
+}

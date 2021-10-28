@@ -1,6 +1,6 @@
 :root {
-    --blue: #10168a;
-    --aqua: #003cff;
+    --blue: rgb(8, 12, 87);
+    --aqua: #1735a9;
     --light: #9ed5d7
 }
 body {
@@ -76,12 +76,12 @@ body {
     width: 80%;
     line-height: 24px;
     text-align: center;
-    color: #10168a;
+    color: #ffffff;
 }
-.header__main button {
+.button {
     height: 50px;
     width: 300px;
-    background: var(--blue);
+    background: #5500ff;
     margin-top: 25px;
     color: #fff;
     border-radius: 20px;
@@ -217,4 +217,60 @@ h4, p {
     padding: 0 25px;
     column-gap: 5px;
     list-style: none;
+}
+.two__bottom_block_hotel {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.block__left {
+    background: var(--blue);
+    height: 350px;
+    width: 550px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.block__right {
+    background: var(--aqua);
+    height: 350px;
+    width: 550px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.font-s {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.p1 {
+    color: white;
+}
+.last__block {
+    height: 200px;
+    background: var(--blue);
+}
+.inside__blocks {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.inside__block_description {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottom_line{
+    height: 4px;
+    width: 300px;
+    background: var(--light);
+}
+.line_position {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }

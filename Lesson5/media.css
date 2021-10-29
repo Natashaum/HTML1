@@ -1,0 +1,54 @@
+@media screen and (max-width: 1200px) {
+    :root {
+        --aqua: red;
+    }
+    .header__logo {
+        width: 100px;
+    }
+}
+
+
+@media screen and (min-width: 1300px){
+    :root {
+        --aqua: green;
+        --light: lightgreen;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1200px){
+    :root {
+        --light: pink;
+    }
+}
+@media screen and (max-width: 400px){
+    .soc-icon {
+        display none;
+    }
+    .nav__button {
+        display: flex;
+    }
+    .countries {
+        padding: 10px;
+    }
+    .countries_list,
+    .about_grid,
+    .country__places_grid,
+    .two__bottom_block_hotel {
+        flex-direction: column;
+    }
+     .about_cart {
+         width: 100%;
+     }
+     .places__grid {
+         width: 100%;
+     }
+     .block__left {
+         width: auto;
+         height: auto;
+     }
+     .block__right {
+         width: auto;
+         height: auto;
+     }
+}
+

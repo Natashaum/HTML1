@@ -25,7 +25,6 @@
 }
 .wrap_row {
     flex-direction: row;
-    /*column-gap: 20px;*/
 }
 .wrap_column {
     flex-direction: column;

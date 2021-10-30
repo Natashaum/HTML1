@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Positions</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box1 {
+            height: 200px;
+            width: 200px;
+            background: #10168a;
+            position: absolute;
+            z-index: 3;
+            right: 0;
+        }
+
+        .box2 {
+            height: 300px;
+            width: 300px;
+            background: cornflowerblue;
+            position: absolute;
+            z-index: 1;
+           left: 100px;
+            top: 100px;
+        }
+        .box3 {
+            height: 250px;
+            width: 250px;
+            background: rgba(140, 0, 255, 0.91);
+            position: absolute;
+            z-index: 2;
+            bottom: 0;
+        }
+    </style>
+    <!-- right: 0; bottom: 0; - розкидає блоки по різним сторонам-->
+    <!-- position absolute - пріорітет позиції обєкта.
+         Якщо position absolute є в обох обєктах, то пріорітетніший той у якого  z-index більший-->
+    <!-- left: 100px; top: 100px; відсуває обєкт від лівої чи правої сторони і т.д.-->
+</head>
+<body>
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positions 2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .father {
+            height: 400px;
+            width: 600px;
+            background: silver;
+            position: relative;
+            top: 100px;
+        }
+        .child {
+            height: 100px;
+            width: 100px;
+            background: #000dff;
+            position: absolute;
+            right: 0;
+        }
+        .box {
+            height: 400px;
+            width: 400px;
+            background: purple;
+        }
+    </style>
+    <!-- position: relative; - надає йому постійне місце, з якого ніхто його не зможе зрушити.
+         Його нічого не перекриває, в разі чого інший обєкт ховається під низ -->
+</head>
+<body>
+<div class="father">
+    <div class="child"></div>
+</div>
+<div class="box"></div>
+</body>
+</html>

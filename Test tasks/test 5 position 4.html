@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Offset squares</title>
+
+    <style>
+        .father {
+            width: 800px;
+            height: 600px;
+            background: #00f7ff;
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            background: blue;
+            display: flex;
+            position: relative;
+        }
+        .father2 {
+            width: 800px;
+            height: 600px;
+            background: forestgreen;
+            position: relative;
+        }
+        .wrap {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            /*background: #5500ff;*/
+            position: absolute;
+            bottom: -100px;
+        }
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background: lightgreen;
+        }
+    </style>
+</head>
+<body>
+<div class="father">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+</div>
+<div class="father2">
+    <div class="wrap">
+        <div class="box1">4</div>
+        <div class="box1">5</div>
+        <div class="box1">6</div>
+    </div>
+
+</div>
+</body>
+</html>

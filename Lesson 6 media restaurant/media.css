@@ -33,4 +33,9 @@
     .header__title p::after {
         display: none;
     }
+
+    .three_boxes_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
 }

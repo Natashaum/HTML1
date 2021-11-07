@@ -134,7 +134,7 @@ button {
     border: #FFFFFF;
 }
  .second_blocks {
-     height: 50px;
+     height: 64px;
      width: 400px;
      background: blue;
      border-radius: 10px;
@@ -207,9 +207,6 @@ button {
     .box{
       text-transform: full-width;
        align-items: center;
-    }
-    .small__boxes {
-        flex-grow: 1;
     }
     .info__block_inside {
         width: 100%;

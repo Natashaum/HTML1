@@ -193,6 +193,7 @@ button {
 .font_style4 {
     color: #000dff;
 }
+
 @media screen and (min-width: 200px) and (max-width: 767px){
     .first-screen h1 {
         font-size: 30px;
